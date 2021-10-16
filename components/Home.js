@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
+import Page from "./Page";
 
 function Home() {
   return (
-    <section id="home">
+    <Page title="Home">
+      <section id="home">
       <div className="container">
         <div className="content">
           <h2>
@@ -12,6 +14,8 @@ function Home() {
         </div>
       </div>
     </section>
+    </Page>
+    
   );
 }
 
